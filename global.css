@@ -1,0 +1,55 @@
+:root {
+
+    /* Colors */
+
+    --Purple: #A729F5;
+    --Dark-navy: #313E51;
+    --Navy: #3B4D66;
+    --Grey-navy: #626C7F;
+    --Light-bluish: #ABC1E1;
+    --Light-grey: #F4F6FA;
+    --White: #FFFFFF;
+    --Green: #26D782;
+    --Red: #EE5454;
+
+    /* Typography */
+    --Rubik: "Rubik", sans-serif;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+body {
+    background-color: var(--Dark-navy);
+}
+
+/* Header toggle */
+
+.light-dark-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/* The toggle for light/dark mode*/
+
+.toggle-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    padding-right: 1.5rem;
+}
+
+.purple-slider {
+    background-color: var(--Purple);
+}
