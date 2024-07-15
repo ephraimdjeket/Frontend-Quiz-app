@@ -46,9 +46,25 @@ main {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  width: 100%;
 }
 
 /* The toggle for light/dark mode*/
+
+.icons {
+  width: 24px;
+  height: 24px;
+}
+
+.purple-slider {
+  width: 48px;
+  height: 28px;
+}
+
+.slider-switch-white {
+  width: 20px;
+  height: 20px;
+}
 
 .toggle-wrapper {
   display: flex;
@@ -63,6 +79,7 @@ main {
   justify-content: flex-end;
   border-radius: 999px;
   background-color: var(--Purple);
+  cursor: pointer;
 }
 
 .slider-switch-white {
@@ -77,11 +94,8 @@ main {
   max-width: 375px;
 }
 
-.frontend-head {
-  padding: 2rem 1.5rem 0rem 1.5rem;
-}
-
 .frontend-head > h1 {
+  font-size: 4rem;
   color: var(--White);
   font-weight: lighter;
 }
@@ -91,6 +105,8 @@ main {
 }
 
 .frontend-head > p {
+  padding-top: 1rem;
+  font-size: 1.25rem;
   color: var(--Light-bluish);
 }
 
@@ -112,7 +128,7 @@ main {
   background-color: #f6e7ff;
 }
 
-.subject {    
+.subject {
   display: flex;
   align-items: center;
   background-color: var(--Navy);

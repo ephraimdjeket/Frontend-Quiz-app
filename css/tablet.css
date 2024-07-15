@@ -9,23 +9,8 @@
 
   /* The toggle for light/dark mode*/
 
-  .icons {
-    width: 24px;
-    height: 24px;
-  }
-
   .toggle-wrapper {
     padding-right: 4rem;
-  }
-
-  .purple-slider {
-    width: 48px;
-    height: 28px;
-  }
-
-  .slider-switch-white {
-    width: 20px;
-    height: 20px;
   }
 
   /* Actual content */
@@ -36,7 +21,7 @@
   }
 
   .frontend-head {
-    padding: 3.938rem 0rem;
+    padding-bottom: 3.938rem;
   }
 
   .frontend-head > h1 {
