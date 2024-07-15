@@ -9,9 +9,10 @@
   <!-- Javascript files -->
   <script src="data.json" id="jsondata" type="application/json" defer></script>
   <!-- CSS Stylesheets-->
-  <link rel="stylesheet" href="global.css">
-  <link rel="stylesheet" href="desktop.css">
-  <link rel="stylesheet" href="mobile.css">
+  <link rel="stylesheet" href="/css/global.css">
+  <link rel="stylesheet" href="/css/desktop.css">
+  <link rel="stylesheet" href="/css/tablet.css">
+  <link rel="stylesheet" href="/css/mobile.css">
 </head>
 
 <body>
@@ -19,14 +20,36 @@
     <div class="toggle-wrapper">
       <img class="icons" src="/assets/images/icon-sun-light.svg" alt="moon icon light version">
       <div class="purple-slider">
-        <div class="slider-switch"></div>
         <div class="slider-switch-white"></div>
       </div>
       <img class="icons" src="/assets/images/icon-moon-light.svg" alt="moon icon light version">
     </div>
   </header>
   <main>
-
+    <section class="frontend-wrapper">
+      <section class="frontend-head">
+        <h1>Welcome to the <span class="h1-special">Frontend Quiz!</span></h1>
+        <p><em>Pick a subject to get started.</em></p>
+      </section>
+    </section>
+    <section class="frontend-subjects">
+      <a class="subject" id="html" href="quiz.html">
+        <img class="icon-wrapper html" src="/assets/images/icon-html.svg" alt="html css">
+        <h2>HTML</h2>
+      </a>
+      <a class="subject" id="css" href="quiz.html">
+        <img class="icon-wrapper css" src="/assets/images/icon-css.svg" alt="Css icon">
+        <h2>CSS</h2>
+      </a>
+      <a class="subject" id="javascript" href="quiz.html">
+        <img class="icon-wrapper javascript" src="/assets/images/icon-js.svg" alt="Javascript icon">
+        <h2>Javascript</h2>
+      </a>
+      <a class="subject" id="accessibility" href="quiz.html">
+        <img class="icon-wrapper accessibility" src="/assets/images/icon-accessibility.svg" alt="accessibility icon">
+        <h2>Accessibility</h2>
+      </a>
+    </section>
   </main>
 
 </body>

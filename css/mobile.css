@@ -1,0 +1,84 @@
+@media screen and (max-width: 48em) {
+  .light-dark-toggle {
+    height: 72px;
+  }
+
+  body {
+    background-image: url("/assets/images/pattern-background-mobile-dark.svg");
+  }
+
+  /* The toggle for light/dark mode*/
+
+  .icons {
+    width: 16px;
+    height: 16px;
+  }
+
+  .toggle-wrapper {
+    padding-right: 1.5rem;
+  }
+
+  .purple-slider {
+    width: 32px;
+    height: 20px;
+  }
+
+  .slider-switch-white {
+    width: 12px;
+    height: 12px;
+  }
+
+  /* Actual content */
+
+  .frontend-wrapper,
+  .frontend-subjects {
+    max-width: 375px;
+  }
+
+  .frontend-subjects {
+    padding-top: 2.5rem;
+  }
+
+  .frontend-head {
+    padding: 2rem 1.5rem 0rem 1.5rem;
+  }
+
+  .frontend-head > h1 {
+    font-size: 2.5rem;
+  }
+
+  .frontend-head > p {
+    padding-top: 1rem;
+    font-size: 0.875rem;
+  }
+
+  /* Subject links */
+
+  .html,
+  .css,
+  .javascript,
+  .accessibility {
+    width: 40px;
+    height: 40px;
+    margin: 0.75rem;
+    border-radius: 6px;
+    padding: 6px;
+  }
+
+  .frontend-subjects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .subject {
+    width: 327px;
+    height: 64px;
+    border-radius: 12px;
+  }
+
+  .subject > h2 {
+    font-size: 1.125rem;
+  }
+}
