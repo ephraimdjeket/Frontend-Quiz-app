@@ -5,6 +5,8 @@
 
   body {
     background-image: url("/assets/images/pattern-background-desktop-dark.svg");
+    background-repeat: no-repeat;
+    object-fit: cover;
   }
 
   main {
@@ -32,6 +34,10 @@
   .frontend-head > h1 {
     max-width: 595px;
     padding-right: 8.188rem;
+  }
+
+  .frontend-head > p {
+    padding-top: 3rem;
   }
 
   /* Subject links */

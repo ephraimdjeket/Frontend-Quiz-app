@@ -90,13 +90,16 @@ main {
 
 /* Actual content */
 
+.frontend-head {
+    color: var(--White);
+}
+
 .frontend-wrapper {
   max-width: 375px;
 }
 
 .frontend-head > h1 {
   font-size: 4rem;
-  color: var(--White);
   font-weight: lighter;
 }
 
