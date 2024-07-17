@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend Mentor | Frontend quiz app</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <!-- Javascript files -->
+  <script src="index.js" defer></script>
+  <script src="data.json" id="jsondata" type="application/json" defer></script>
+  <script src="./handler/lightdark.js" type="module"></script>
+  <!-- CSS Stylesheets-->
+  <link rel="stylesheet" href="/css/global.css">
+  <link rel="stylesheet" href="/css/desktop.css">
+  <link rel="stylesheet" href="/css/tablet.css">
+  <link rel="stylesheet" href="/css/mobile.css">
+</head>
+
+<body>
+  <header class="light-dark-toggle">
+      <div class="toggle-wrapper toggle-wrapper-quiz">
+          <div class="subject-title">
+              <img class="icon-wrapper css" src="/assets/images/icon-css.svg" alt="Css icon">
+              <h2 class="h2-title">CSS</h2>
+            </div>
+      <img class="icons" id="sun" src="/assets/images/icon-sun-light.svg" alt="moon icon light version">
+      <div class="purple-slider">
+        <div class="slider-switch-white"></div>
+      </div>
+      <img class="icons" id="moon" src="/assets/images/icon-moon-light.svg" alt="moon icon light version">
+    </div>
+  </header>
+  <main>
+    <section class="frontend-wrapper">
+      <section class="frontend-head">
+        <h1>Welcome to the <span class="h1-special">Frontend Quiz!</span></h1>
+        <p class="small-text"><em>Pick a subject to get started.</em></p>
+      </section>
+    </section>
+    <section class="frontend-subjects">
+      <a class="subject" id="html" href="quiz.html">
+        <img class="icon-wrapper html" src="/assets/images/icon-html.svg" alt="html css">
+        <h2 class="h2-title">HTML</h2>
+      </a>
+      <a class="subject" id="css" href="quiz.html">
+        <img class="icon-wrapper css" src="/assets/images/icon-css.svg" alt="Css icon">
+        <h2 class="h2-title">CSS</h2>
+      </a>
+      <a class="subject" id="javascript" href="quiz.html">
+        <img class="icon-wrapper javascript" src="/assets/images/icon-js.svg" alt="Javascript icon">
+        <h2 class="h2-title">Javascript</h2>
+      </a>
+      <a class="subject" id="accessibility" href="quiz.html">
+        <img class="icon-wrapper accessibility" src="/assets/images/icon-accessibility.svg" alt="accessibility icon">
+        <h2 class="h2-title">Accessibility</h2>
+      </a>
+    </section>
+  </main>
+
+</body>
+
+</html>

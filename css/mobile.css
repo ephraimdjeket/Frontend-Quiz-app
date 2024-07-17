@@ -30,6 +30,7 @@
 
   /* Actual content */
 
+  .header-wrapper,
   .frontend-wrapper,
   .frontend-subjects {
     max-width: 375px;
