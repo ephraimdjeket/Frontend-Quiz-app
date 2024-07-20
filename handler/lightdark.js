@@ -1,11 +1,13 @@
 // Select elements
 const lightDarkSwitch = document.querySelector(".purple-slider");
 const mainHeadline = document.querySelector(".frontend-head");
+const mainHeadlineQuiz = document.querySelector(".frontend-head-quiz");
 const smallHeadline = document.querySelector(".small-text");
 const sunIcon = document.getElementById("sun");
 const moonIcon = document.getElementById("moon");
 const subjectBoxes = document.querySelectorAll(".subject");
 const h2Elements = document.querySelectorAll(".h2-title");
+const subjectTitle = document.querySelector(".subjecth2");
 
 
 export function lightDarkToggle() {
@@ -15,6 +17,7 @@ export function lightDarkToggle() {
         document.body.style.backgroundColor = "#313E51";
         lightDarkSwitch.style.justifyContent = "flex-end";
         mainHeadline.style.color = "#FFFF";
+        mainHeadlineQuiz.style.color = "#FFFF";
         smallHeadline.style.color = "#ABC1E1";
         h2Elements.forEach((h2) => {
             h2.style.color = "#FFFF";
@@ -36,6 +39,7 @@ export function lightDarkToggle() {
         document.body.style.backgroundColor = "#f4f6fa";
         lightDarkSwitch.style.justifyContent = "flex-start";
         mainHeadline.style.color = "#313e51";
+        mainHeadlineQuiz.style.color = "#313e51";
         smallHeadline.style.color = "#626c7f";
         h2Elements.forEach((h2) => {
             h2.style.color = "#313E51";

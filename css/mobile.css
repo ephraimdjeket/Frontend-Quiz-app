@@ -82,4 +82,42 @@
   .subject > h2 {
     font-size: 1.125rem;
   }
+
+  /* Quiz header styling */
+
+  .toggle-wrapper-quiz {
+    gap: 140px;
+    height: 72px;
+  }
+
+  .subjecth2 {
+    font-size: 1.125rem;
+    padding-left: 1rem;
+  }
+
+  /* Quiz header styling */
+
+  .quiz-p {
+    padding-bottom: 0.75rem;
+  }
+
+  .quiz-h1 {
+    line-height: 1.2;
+    font-size: 1.25rem;
+  }
+
+  .frontend-head-quiz {
+    color: white;
+  }
+
+  .toggle-wrapper-quiz,
+  .frontend-wrapper-quiz {
+    max-width: 327px;
+    padding: 0rem 1.5rem;
+  }
+
+
+
+
+
 }
